@@ -7,6 +7,8 @@
 > Certifique-se que o comando utilizado é:
 >
 > git clone --recursive-submodules https://github.com/pedromsra/TESTE-Recomendador_de_Produtos_RD_Station
+>
+> 📋 **Observar comentário sobre a métrica utilizada no caso de recomendação para 'SingleProduct'**
 
 # Teste Técnico - Recomendador de Produtos RD Station
 
@@ -102,6 +104,23 @@ Para completar este teste, você deve concentrar-se principalmente em três arqu
 7. O serviço deve ser modular e facilmente extensível para futuras atualizações e adições de funcionalidades.
 
 Certifique-se de que todos os critérios de aceite são atendidos durante o desenvolvimento do projeto.
+
+> **Comentário sobre o script implementado**
+>
+> Foi usada a métrica de Jaccard para obter a melhor opção em caso de 'SingleProduct'
+>
+> Mais informações podem ser encontrados no arquivo destinado a função em /frontend/src/utils/jaccard.js
+>
+> A referência utilizada foi: https://www.sciencedirect.com/topics/computer-science/jaccard-coefficient
+>
+> Resumo do cálculo da métrica:
+>
+> J(A, B) = |A ∩ B| / |A ∪ B|
+>
+> Retorna 1 se os conjuntos forem idênticos.
+> Retorna 0 se não houver interseção.
+>
+> **legenda: dado dois conjuntos, a métrica de jaccard é a divisão da intersção dos dois conjuntos pela união dos dois conjuntos**
 
 ## Autor
 
