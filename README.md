@@ -1,3 +1,13 @@
+> ⚠️ **Atenção — Leia antes de continuar**
+>
+> Conforme a sessão [Como Executar](#como-executar)
+>
+> **O clone desse repositório deve ser executado com --recursive-submodules**
+>
+> Certifique-se que o comando utilizado é:
+>
+> git clone --recursive-submodules https://github.com/pedromsra/TESTE-Recomendador_de_Produtos_RD_Station
+
 # Teste Técnico - Recomendador de Produtos RD Station
 
 Este projeto é parte do teste técnico para a vaga de desenvolvedor front-end na RD Station. O objetivo principal é implementar a lógica de recomendação de produtos RD Station em uma aplicação web existente.
