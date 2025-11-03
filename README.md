@@ -2,11 +2,11 @@
 >
 > Conforme a sessão [Como Executar](#como-executar)
 >
-> **O clone desse repositório deve ser executado com --recursive-submodules**
+> **O clone desse repositório deve ser executado com --recurse-submodules**
 >
 > Certifique-se que o comando utilizado é:
 >
-> git clone --recursive-submodules https://github.com/pedromsra/TESTE-Recomendador_de_Produtos_RD_Station
+> git clone --recurse-submodules https://github.com/pedromsra/TESTE-Recomendador_de_Produtos_RD_Station
 >
 > 📋 **Observar comentário sobre a métrica utilizada no caso de recomendação para 'SingleProduct' em [Critérios de Aceite](#critérios-de-aceite)**
 
@@ -81,7 +81,7 @@ Para completar este teste, você deve concentrar-se principalmente em três arqu
 
 ## Como Executar
 
-1. Clone o repositório: `git clone --recursive-submodules https://github.com/pedromsra/TESTE-Recomendador_de_Produtos_RD_Station`
+1. Clone o repositório: `git clone --recurse-submodules https://github.com/pedromsra/TESTE-Recomendador_de_Produtos_RD_Station`
 2. Instale as dependências: `yarn install`
 3. Para instalar o projeto, execute o script `./install.sh`
 4. Inicie a aplicação: `yarn start`
