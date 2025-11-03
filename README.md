@@ -8,7 +8,7 @@
 >
 > git clone --recursive-submodules https://github.com/pedromsra/TESTE-Recomendador_de_Produtos_RD_Station
 >
-> 📋 **Observar comentário sobre a métrica utilizada no caso de recomendação para 'SingleProduct'**
+> 📋 **Observar comentário sobre a métrica utilizada no caso de recomendação para 'SingleProduct' em [Critérios de Aceite](#critérios-de-aceite)**
 
 # Teste Técnico - Recomendador de Produtos RD Station
 
