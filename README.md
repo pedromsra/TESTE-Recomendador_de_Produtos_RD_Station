@@ -9,6 +9,8 @@
 > git clone --recurse-submodules https://github.com/pedromsra/TESTE-Recomendador_de_Produtos_RD_Station
 >
 > 📋 **Observar comentário sobre a métrica utilizada no caso de recomendação para 'SingleProduct' em [Critérios de Aceite](#critérios-de-aceite)**
+>
+> ⚠️ **Foi adicionado variáveis de ambeinte, observar em [Como Executar](#como-executar)**
 
 # Teste Técnico - Recomendador de Produtos RD Station
 
@@ -84,7 +86,10 @@ Para completar este teste, você deve concentrar-se principalmente em três arqu
 1. Clone o repositório: `git clone --recurse-submodules https://github.com/pedromsra/TESTE-Recomendador_de_Produtos_RD_Station`
 2. Instale as dependências: `yarn install`
 3. Para instalar o projeto, execute o script `./install.sh`
-4. Inicie a aplicação: `yarn start`
+4. Configurar variável de ambiente do frontend:
+   1. criar uma cópia do arquivo /frontend/.env.example, renomeando para .env
+   2. ⚠️ caso a variável de ambiente não seja configurada, por padrão a url da API (json-server) será http://localhost:3001
+5. Inicie a aplicação: `yarn start`
 
 ### Scripts Disponíveis
 
